@@ -90,6 +90,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-location:before {
 	content: "\e016";
+    color: #F68026;
 }
 .icon-box-add:before {
 	content: "\e017";
@@ -120,6 +121,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-bubble:before {
 	content: "\e020";
+    color: #F68026;
 }
 .icon-screen:before {
 	content: "\e021";
@@ -261,6 +263,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-alarm:before {
 	content: "\e04a";
+    color: #F68026;
 }
 .icon-earth:before {
 	content: "\e04b";
@@ -273,6 +276,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-car:before {
 	content: "\e04e";
+    color: #F68026;
 }
 .icon-truck:before {
 	content: "\e04f";
@@ -288,6 +292,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-rocket:before {
 	content: "\e053";
+    color: #F68026;
 }
 .icon-meter:before {
 	content: "\e054";
@@ -414,6 +419,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-calendar:before {
 	content: "\e07d";
+    color: #F68026;
 }
 .icon-calendar-2:before {
 	content: "\e07e";
@@ -471,6 +477,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-smiley:before {
 	content: "\e090";
+    color: #F68026;
 }
 .icon-thumbs-down:before {
 	content: "\e091";
@@ -798,6 +805,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-gift:before {
 	content: "\e0ff";
+    color: #F68026;
 }
 .icon-balloon:before {
 	content: "\e100";
@@ -1083,6 +1091,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-coin:before {
 	content: "\e15c";
+    color: #F68026;
 }
 .icon-ticket:before {
 	content: "\e15d";
