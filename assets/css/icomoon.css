@@ -784,6 +784,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-upload:before {
 	content: "\e0f8";
+	color: #F68026;
 }
 .icon-skull:before {
 	content: "\e0f9";
