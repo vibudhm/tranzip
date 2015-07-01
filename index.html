@@ -48,6 +48,8 @@
     
     <script src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="assets/js/homepage_Vid.js"></script>
+
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <[if lt IE 9]>
@@ -81,13 +83,25 @@
     </div>
     </div>
 
-  
-  
-		<!-- ==== HEADERWRAP ==== -->
-	    <div id="headerwrap" id="home" name="home">
-			<header class="clearfix">
+  	<div id="headerwrap">
+    	<header class="clearfix">
 	  		 		<h1><img src="./assets/img/logobig.png" height="150" width="150" style="background-color:transparent"><!--<span class="icon icon-github"></span>--></h1>
 	  		 		<h2>Tranzip</h2><br />
+	  		 		<p>Ship Packages, The Social Way!</p>
+	  		</header>	
+        
+        
+        	<video autoplay loop poster="./assets/img/Traffic-blurred2.jpg" id="bgvid">
+            <source src="./assets/img/Traffic-blurred2.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="./assets/img/Traffic-blurred2.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+</div>
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <!--<div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1><img src="./assets/img/logobig.png" height="150" width="150" style="background-color:transparent"><!--<span class="icon icon-github"></span>--></h1>
+	  		 		<!--<h2>Tranzip</h2><br />
 	  		 		<p>Ship Packages, The Social Way!</p>
 	  		</header>	    
 	    </div><!-- /headerwrap -->
@@ -96,22 +110,24 @@
 		<div id="greywrap">
 			<div class="row">
 				<div class="col-lg-4 callout">
+					<span class="icon icon-lock"></span>
+					<h2>Security</h2>
+					<p>All packages are insured and all Zippers goes through extensive background checks to give you peace of mind.</p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-4 callout">
+					
 					<span class="icon icon-smiley"></span>
                   
 					<h2>Sender</h2>
 					<p>Send your packages without any hassles. Just hit a few buttons & its gone. Safely!</p>
-				</div><!-- col-lg-4 -->
-					
+
+				</div><!-- col-lg-4 -->	
+				
 				<div class="col-lg-4 callout">
 					<span class="icon icon-car"></span>
 					<h2>Zipper</h2>
 					<p>Earn cash during your daily conveyance, vacation or business trip. Save even more by writing these miles off your taxes.</p>
-				</div><!-- col-lg-4 -->	
-				
-				<div class="col-lg-4 callout">
-					<span class="icon icon-gift"></span>
-					<h2>Delivery</h2>
-					<p>Insured package delivery & track it in realtime. Rate your Zipper once your package is delivered. Shipping can be fun too!</p>
 				</div><!-- col-lg-4 -->	
 			</div><!-- row -->
 		</div><!-- greywrap -->

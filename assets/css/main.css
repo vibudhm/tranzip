@@ -263,14 +263,22 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
-	margin-top: -50px;
-	padding-top:120px;
+	/*background: url(../img/header_bg.jpg) no-repeat center top;*/
+	
+
+    border-right: none;
+    border-left: none;
+    position: relative;
+    height: 100%;
+
+    margin-top: -50px;
+	padding-top:12px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
+
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -283,14 +291,23 @@ a:after {
     background-size: cover;
 }
 
-#headerwrap h1 {
-	color:#ffffff;
-	margin-top: 90px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
-	font-size: 100px;
-	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
+
+
+#headerwrap h1{
+   
+    padding-top:120px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    width: 100%;
+    color:#ffffff;
+    margin-top: 90px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+
 }
 
 #headerwrap h2 {
@@ -621,9 +638,43 @@ a:after {
 
 
 /* ==========================================================================
-   FAQ Section
+   Home Video Section
    ========================================================================== */
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
 
+video#bgvid {
+
+position: relative;
+
+top: 50%;
+
+left: 50%;
+
+min-width: 100%;
+
+min-height: 100%;
+
+width: auto;
+
+height: auto;
+
+z-index: -50;
+
+-webkit-transform: translateX(-50%) translateY(-50%);
+
+transform: translateX(-50%) translateY(-50%);
+
+background: url(./assets/img/Traffic_blurred2.jpg) no-repeat;
+
+background-size: cover;
+
+}
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */

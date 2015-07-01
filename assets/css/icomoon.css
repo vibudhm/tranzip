@@ -453,6 +453,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-lock:before {
 	content: "\e088";
+	color: #F68026;
 }
 .icon-user-plus-2:before {
 	content: "\e089";
@@ -462,6 +463,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-lock-2:before {
 	content: "\e08b";
+	color: #F68026;
 }
 .icon-paw:before {
 	content: "\e08c";
@@ -571,6 +573,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-lock-3:before {
 	content: "\e0af";
+	color: #F68026;
 }
 .icon-zoom-out:before {
 	content: "\e0b0";
@@ -727,6 +730,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-key:before {
 	content: "\e0e5";
+	color: #F68026;
 }
 .icon-contract:before {
 	content: "\e0e6";
